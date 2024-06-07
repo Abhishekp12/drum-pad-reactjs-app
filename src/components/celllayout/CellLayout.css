@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px;
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    cursor: pointer;
+  }
+  
+  .bg-green {
+    background-color: green;
+  }
+  
+  .bg-white {
+    background-color: white;
+  }
+  
+  .controls {
+    margin-top: 20px;
+  }
+  
+  .controls .btn {
+    margin: 0 10px;
+  }
+  
